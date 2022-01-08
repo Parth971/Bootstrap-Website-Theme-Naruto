@@ -2,21 +2,33 @@ body, html {
 	margin: 0;
 	padding: 0;
 	color: black;
+	font-family: 'Rubik', sans-serif;
 }
 
+/* navigation */
 .nav-wrapper .navbar {
 	margin-bottom: 0;
 	border-radius: 0;
 }
 .nav-wrapper>.navbar>.container-fluid>.navbar-header {
 	margin-left: 100px;
+	font-weight: 800;
 }
-.carousel>.carousel-inner>.item>img {
+.nav-wrapper li {
+	font-weight: 500;
+}
+
+/* carousel */
+#myCarousel>.carousel-inner>.item>img {
 	width: 100%;
 	height: 500px;
 }
-.bingo-book {
-	margin-top: 50px;
+
+/* bingo book */
+.bingo-book h1 {
+	font-weight: 600;
+	font-size: 60px;
+	margin: 50px 0;
 }
 .featurette-divider {
     margin: 80px 0;
@@ -24,9 +36,14 @@ body, html {
 .featurette>.col-md-7>h1 {
     font-size: 50px;
 }
+.colorful-table thead td {
+	font-weight: 600;
+}
 .colorful-table td {
 	color: black;
 }
+
+/* end text */
 .end-text {
 	margin-bottom: 50px;
 }
@@ -35,6 +52,8 @@ body, html {
 	color: white;
 	padding: 10px;
 }
+
+/* button modal */
 .custom_modal  {
 	color: gray;
 	font-weight: 500;
